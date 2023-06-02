@@ -1,0 +1,44 @@
+.card-main {
+    // border: 1px solid black;
+    border-radius: 0.7em;
+    background-color: #FDFCFC;
+    box-shadow: 0.05em 0.23em #0000001a;
+    border:1px solid #f5f1f1;
+    padding-left: 1em;
+    margin-right: 3em;
+}
+
+.rob-500 {
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.arrow {
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.degree {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.degree-icon {
+    font-size: 64px;
+    font-weight: 100;
+    
+}
+
+.weather-footer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #BFAF1B;
+}

@@ -1,0 +1,53 @@
+.chart-details {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5em;
+    background-color: #FDFCFC;
+}
+
+.main-title {
+    color: #C4C4C4;
+    font-size: 1.3em;
+    font-family: Poppins;
+}
+
+.day-length {
+    color: #9A9A9A;
+    padding-top:5em;
+    font-family: Roboto;
+    font-weight: 500;
+    margin-bottom:2em;
+}
+
+.remaining-length {
+    color: #9A9A9A;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 700px) {
+    .main-title {
+        padding-bottom: 1em;
+        color: #C4C4C4;
+        font-size: 0.8em;
+        font-family: Poppins;
+    }
+    
+    .day-length {
+        color: #9A9A9A;
+        font-family: Poppins;
+        font-weight: 500;
+        padding-top: 1em;
+        margin-bottom:0em;
+        font-size: 0.7em;
+    }
+    
+    .remaining-length {
+        color: #9A9A9A;
+        font-family: Poppins;
+        font-weight: 400;
+        font-size: 0.7em;
+    }
+    
+}
+
+

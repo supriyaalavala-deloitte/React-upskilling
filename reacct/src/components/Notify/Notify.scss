@@ -1,0 +1,15 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  padding-right: 1em;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.1em;
+  line-height: 21px;
+}
+
+.flex-item-left {
+  margin-right: 0.5em;
+}

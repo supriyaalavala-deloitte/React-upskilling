@@ -1,0 +1,80 @@
+.top-container {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2em;
+}
+
+.left-top {
+  float: left;
+}
+.right-top {
+  float: right;
+}
+
+.weather-img {
+  max-width: 123px;
+}
+
+.title-city {
+  font-family: Roboto;
+  font-size: 1.7em;
+  font-weight: 600;
+  text-align: center;
+}
+
+#arrow {
+  width: 0.75em;
+  padding-bottom: 0.2em;
+}
+
+.degree-number {
+  font-size: 3.7em;
+  font-weight: 500;
+  font-family: Poppins;
+}
+
+#degree-picture {
+  width: 8px;
+  vertical-align: top;
+}
+
+.align-horizontal {
+  text-align: center;
+  justify-self: center;
+}
+
+.addicon {
+  background-color: #dadada;
+  border-radius: 50%;
+  color: black;
+}
+
+@media only screen and (max-width: 700px) {
+  .degree-number {
+    text-align: center;
+  }
+  .right-top {
+    font-size: 0.55em;
+    font-weight: 550;
+  }
+
+  .backbtn {
+    display: none;
+  }
+
+  .addicon {
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #000;
+    color: black;
+  }
+}
+
+.button-change {
+  display: none;
+}
